@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Merriweather+Sans:wght@500&family=Playwrite+AR:wght@100..400&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+*:not(head){
+    color: white;
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+body{
+    background-image: url('./back_apol.jpg');
+    /* background-size: 100%; */
+    /* background-repeat: no-repeat; */
+    display: grid;
+    place-content: center;
+    place-items: center;
+    padding: 3vw 0 0 0;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.main_content{
+    display: grid;
+    place-content: left;
+    place-items: left;
+    padding: 1vw;
+    /* background-color: rgba(0, 0, 0, 0.5) ; */
+    backdrop-filter: blur(12px);
+    line-height: 20px;
+    margin: 5vw 0 0 0;
+    width: 50vw;
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-optical-sizing: auto;
+    font-size: 1vw;
+}
+.pic1_container{
+    /* background-color: rgb(255, 255, 254); */
+    backdrop-filter: blur(12px);
+    padding: 2vw;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    border: 10vw 0 0 0 ;
+    color: wheat;
+}
+img{
+    width: 50vw;
+}
+/* .new_img{
+    width: 35vw;
+} */
+.box{
+    display: flex;
+    width: 90vw;
+}
+@media only screen and (max-width: 1000px)
+{
+    .main_content{
+        width: auto;
+        font-size: 15px;
+        line-height: auto;
+    }
+    img,.new_img{
+        width: 90vw;
+    }
+    .box
+    {
+        display: grid;
+    }
+}
